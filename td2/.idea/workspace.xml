@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="39ac2674-4c9f-4116-b376-1846ed43c55a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../td12/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/.ember-cli" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/.idea/td12.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/.template-lintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/.watchmanconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/app/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/app/components/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/app/controllers/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/app/helpers/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/app/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/app/models/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/app/resolver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/app/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/app/routes/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/app/routes/ex2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/app/styles/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/app/templates/application.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/app/templates/components/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/app/templates/ex2.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/app/utils/service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/config/environment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/config/optional-features.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/config/targets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/ember-cli-build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/testem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/tests/helpers/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/tests/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/tests/integration/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/tests/test-helper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/tests/unit/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/tests/unit/routes/ex2-test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../td12/vendor/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ember-cli" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/td2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.template-lintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.watchmanconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/multi-select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/Listes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/helpers/array-contains.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/resolver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/td2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/components/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/components/multi-select.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/td2.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/utils/Listes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/environment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/optional-features.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/targets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ember-cli-build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/helpers/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/integration/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/integration/components/multi-select-test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/integration/helpers/array-contains-test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test-helper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/unit/routes/td2-test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/.gitkeep" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1XNcvwqC5FwoJWv0H4TZbhbT2Je" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\loicl\WebstormProjects\premierProjet\td2\app\utils" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="39ac2674-4c9f-4116-b376-1846ed43c55a" name="Default Changelist" comment="" />
+      <created>1580890226859</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580890226859</updated>
+      <workItem from="1580890228324" duration="10183000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="577" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580892685971">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="577" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1580892685971" />
+  </component>
+</project>
