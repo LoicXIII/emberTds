@@ -1,0 +1,40 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css">
+<form class="img-rounded" id="choixMultiples" ng-controller="ListesController as lcCtrl">
+  <div>
+    <h1>Sélectionnez vos produits</h1>
+    <div class="form-group">
+      <div class="inline-block">
+        <label>Produits disponibles :
+        </label>
+        <MultiSelect @elements={{model.dispoItems}} @selectedIds={{model.dispoItemsIds_}}></MultiSelect>
+      </div>
+      <div class="inline-block">
+        <div title="Ajouter" class="btn btn-primary list-btn" {{action "addTo"  model.dispoItems_ model.includedItems model.dispoItems}}><span aria-hidden="true" class="glyphicon glyphicon-step-forward"></span></div>
+        <div title="Ajouter tous" class="btn btn-primary list-btn"><span aria-hidden="true" class="glyphicon glyphicon-fast-forward"></span></div>
+        <div title="Retirer" class="btn btn-primary list-btn"><span aria-hidden="true" class="glyphicon glyphicon-step-backward"></span></div>
+        <div title="Retirer tous" class="btn btn-primary list-btn" ><span aria-hidden="true" class="glyphicon glyphicon-fast-backward"></span></div>
+      </div>
+      <div class="inline-block">
+        <label>Produits à inclure :
+        </label>
+        <MultiSelect @elements={{model.includedItems}} @selectedIds={{model.includedItemsIds_}}></MultiSelect>
+
+      </div>
+    </div>
+    <div><div class="btn btn-primary" style="width:98%;text-align: right" >
+      <span>Etape suivante    </span><span aria-hidden="true" class="glyphicon glyphicon-circle-arrow-right"></span>
+    </div></div>
+  </div>
+  <div>
+    <h1>Votre choix</h1>
+    <ul>
+      <li>
+        <a href="{{item.url}}"><img /></a>
+        <p>{{item.title}}</p>
+      </li>
+    </ul>
+    <div><div class="btn btn-primary" style="width:98%;text-align: right">
+      <span aria-hidden="true" class="glyphicon glyphicon-circle-arrow-left"></span><span>     Retour au choix précédent</span>
+    </div></div>
+  </div>
+</form>
