@@ -1,8 +1,8 @@
 {
-  "name": "td2",
+  "name": "td3",
   "version": "0.0.0",
   "private": true,
-  "description": "Small description for td2 goes here",
+  "description": "Small description for td3 goes here",
   "repository": "",
   "license": "MIT",
   "author": "",
@@ -39,6 +39,7 @@
     "ember-export-application-global": "^2.0.0",
     "ember-font-awesome": "^4.0.0-rc.4",
     "ember-load-initializers": "^2.0.0",
+    "ember-local-storage": "^1.7.2",
     "ember-maybe-import-regenerator": "^0.1.6",
     "ember-qunit": "^4.4.1",
     "ember-resolver": "^5.0.1",

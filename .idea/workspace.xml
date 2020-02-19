@@ -1,25 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39ac2674-4c9f-4116-b376-1846ed43c55a" name="Default Changelist" comment="">
+    <list default="true" id="1e93f50c-043e-4456-8a2d-bcce4ab6db5b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/td2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/multi-select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/Listes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/array-contains.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/td2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/components/multi-select.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/td2.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/utils/Listes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environment.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/environment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tests/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/integration/components/multi-select-test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/integration/helpers/array-contains-test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/unit/routes/td2-test.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\loicl\WebstormProjects\premierProjet\td3\.idea" />
+      </set>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="ProjectId" id="1XNcvwqC5FwoJWv0H4TZbhbT2Je" />
+  <component name="ProjectId" id="1Y1ALIPHhxfGvRhSNJneyybeIp0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,17 +49,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\loicl\WebstormProjects\premierProjet\td2\app\utils" />
-    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -57,42 +73,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="39ac2674-4c9f-4116-b376-1846ed43c55a" name="Default Changelist" comment="" />
-      <created>1580890226859</created>
+      <changelist id="1e93f50c-043e-4456-8a2d-bcce4ab6db5b" name="Default Changelist" comment="" />
+      <created>1582099669097</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1580890226859</updated>
-      <workItem from="1580890228324" duration="10249000" />
+      <updated>1582099669097</updated>
+      <workItem from="1582099674592" duration="495000" />
+      <workItem from="1582100397378" duration="863000" />
     </task>
-    <task id="LOCAL-00001" summary="td2">
-      <created>1580900470619</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1580900470620</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="td2" />
-    <option name="LAST_COMMIT_MESSAGE" value="td2" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="391" y="0" key="CommitChangelistDialog2" timestamp="1580900468739">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1580900468739" />
-    <state x="361" y="142" key="Vcs.Push.Dialog.v2" timestamp="1580900482038">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="142" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1580900482038" />
-    <state x="577" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580892685971">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="577" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1580892685971" />
   </component>
 </project>
