@@ -1,0 +1,50 @@
+:root {
+  --blue : #337ab7;
+  --electric-light-blue : #5bc0de;
+}
+
+.panel {
+  display:flex;
+  flex-direction: column;
+  margin: 50px;
+  border: 1.5px solid #337ab7 ;
+  border-radius: 3px;
+}
+
+.panel-heading {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--blue);
+  border: 1px solid var(--blue) ;
+  border-radius: 3px 3px 0  0;
+  padding: 0 20px;
+  height: 50px;
+  color: white;
+}
+
+.panel-body {
+  padding: 10px;
+}
+
+.filter-bar {
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  color : white;
+  background-color: var(--blue);
+  border: var(--blue);
+}
+
+.btn-edit {
+  color: white;
+  background-color: var(--electric-light-blue);
+  border: var(--electric-light-blue);
+}
+
+.btn-delete {
+  color: white;
+  background-color: red;
+  border: red;
+}

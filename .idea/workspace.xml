@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e93f50c-043e-4456-8a2d-bcce4ab6db5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/utils/Contacts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/utils/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/utils/Contacts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +52,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\loicl\WebstormProjects\premierProjet\app\templates" />
+    </key>
+  </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
@@ -75,6 +81,7 @@
       <updated>1582099669097</updated>
       <workItem from="1582099674592" duration="495000" />
       <workItem from="1582100397378" duration="7724000" />
+      <workItem from="1583237387006" duration="9348000" />
     </task>
     <task id="LOCAL-00001" summary="début td3">
       <created>1582101303901</created>
@@ -94,13 +101,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="début td3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="391" y="0" key="CommitChangelistDialog2" timestamp="1582101302671">
+    <state x="391" y="0" key="CommitChangelistDialog2" timestamp="1582109860712">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1582101302671" />
-    <state x="361" y="142" key="Vcs.Push.Dialog.v2" timestamp="1582101313108">
+    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1582109860712" />
+    <state x="361" y="142" key="Vcs.Push.Dialog.v2" timestamp="1582109867283">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="142" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1582101313108" />
+    <state x="361" y="142" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1582109867283" />
+    <state x="815" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1583238499354">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="815" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1583238499354" />
   </component>
 </project>
