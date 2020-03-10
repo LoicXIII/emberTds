@@ -1,1 +1,21 @@
-<h2>Helllo la companie</h2>
+<div class="center-div">
+  <div>
+    <i class="table icon"></i>
+    <h1>models/developer</h1>
+    New object creation
+  </div>
+  <div class="ui input">
+    <h2>Identité</h2><br>
+    <Input @value={{model.identity}} placeholder="Identité" class="form-control"/>
+  </div>
+
+  <div>
+    <button {{action "save" model}} class="ui positive button">
+      <i class="check icon"></i>Valider
+    </button>
+    <LinkTo @route="developers" class="ui button">
+      <i class="close icon"></i>Annuler
+    </LinkTo>
+  </div>
+</div>
+{{outlet}}

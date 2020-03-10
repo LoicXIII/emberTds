@@ -4,34 +4,49 @@
     <h1>models/developer</h1>
     Data Administration
   </div>
-  <LinkTo @route="developers.new" class="ui orange button">
+  <LinkTo @route="developers.new"  class="ui orange button">
    <i class="plus icon"></i>
     add models/developer
   </LinkTo>
-  <table class="ui single line table">
+  <table class="ui single line striped table">
     <thead>
     <tr>
       <th>Identity</th>
+      <th> </th>
     </tr>
     </thead>
     <tbody>
-    <tr>
-      {{#each model as |developer| }}
-      <td>
+      {{#each model.devs as |developer| }}
+
+      <tr>
+        <td>
         {{developer.identity}}
-      </td>
-      <td>
-        <button class="circular ui grey basic icon button">
-          <i class="edit outline icon"></i>
-        </button>
-        <button class="circular ui red basic icon button">
-          <i class="close icon"></i>
-        </button>
-      </td>
+        </td>
+        <td>
+       <button  class="circular ui grey basic icon button">
+        <i class="edit outline icon"></i>
+      </button>
+          <button  {{action "avantDelete" model developer}} class="circular ui icon button inverted red">
+            <i class="close icon"></i>
+          </button>
+        </td>
+      </tr>
+
+
       {{/each}}
-    </tr>
     </tbody>
   </table>
 </div>
-
+{{#if model.devActif}}
+  <div class="center-div">
+    <i class="question circle icon"></i>
+    <p>Confirmer la suppression de {{model.devActif.identity}}</p>
+    <button {{action "delete" model model.devActif}} class="ui positive button">
+      <i class="check icon"></i>Confirmer
+    </button>
+    <button {{action "annuler" model }} class="ui button">
+      <i class="close icon"></i>Annuler
+    </button>
+  </div>
+{{/if}}
 {{outlet}}
