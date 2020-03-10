@@ -1,0 +1,37 @@
+<div class="center-div">
+  <div>
+    <i class="table icon"></i>
+    <h1>models/developer</h1>
+    Data Administration
+  </div>
+  <LinkTo @route="developers.new" class="ui orange button">
+   <i class="plus icon"></i>
+    add models/developer
+  </LinkTo>
+  <table class="ui single line table">
+    <thead>
+    <tr>
+      <th>Identity</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      {{#each model as |developer| }}
+      <td>
+        {{developer.identity}}
+      </td>
+      <td>
+        <button class="circular ui grey basic icon button">
+          <i class="edit outline icon"></i>
+        </button>
+        <button class="circular ui red basic icon button">
+          <i class="close icon"></i>
+        </button>
+      </td>
+      {{/each}}
+    </tr>
+    </tbody>
+  </table>
+</div>
+
+{{outlet}}
