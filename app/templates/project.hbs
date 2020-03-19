@@ -6,7 +6,7 @@
 </div>
 <div class="center-div">
 <h3>Stories</h3>
-<LinkTo @route="story.new" class="circular ui grey basic icon button">
+<LinkTo @route="story.new" @model={{project.id}} class="circular ui grey basic icon button">
   <i class="plus icon"></i>
 </LinkTo>
 </div>
@@ -14,11 +14,11 @@
 <div class="center-div">
   <table class="ui single line striped table">
     <tbody>
-    {{#each model as |storie| }}
+    {{#each model.pro.stories as |story| }}
 
       <tr>
         <td>
-          {{storie.descriptif}}
+          {{story.descriptif}}
         </td>
         <td>
 

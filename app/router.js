@@ -15,11 +15,10 @@ Router.map(function() {
     this.route('new');
   });
   this.route('edit');
-  this.route('project');
+  this.route('project', {path: '/project/:project_id'}, function(){});
 
   this.route('story', function() {
     this.route('new');
   });
 });
-
 export default Router;

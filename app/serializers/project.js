@@ -3,7 +3,7 @@ import ApplicationSerializer from './application';
 
 export default ApplicationSerializer.extend(DS.EmbeddedRecordsMixin, {
   attrs: {
-    stories: {
+    story: {
       deserialize: false,
       serialize: 'ids'
     }

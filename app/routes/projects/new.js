@@ -6,7 +6,7 @@ export default Route.extend({
     return EmberObject.create(
       {
         projectObject:EmberObject.create(),
-        developers:this.get('store').findAll('developer')
+        developers:this.get('store').findAll('developer'),
       }
     );
   },

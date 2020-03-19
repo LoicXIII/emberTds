@@ -5,4 +5,5 @@ export default Route.extend({
   model() {
     return {pro:this.get('store').findAll('story')};
   },
+
 });

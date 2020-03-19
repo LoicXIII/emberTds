@@ -7,6 +7,7 @@ export default Route.extend({
       {
         projectObject:EmberObject.create(),
         developers:this.get('store').findAll('developer'),
+        project:this.get('store').findAll('project')
       }
     );  },
   actions:{
@@ -15,7 +16,7 @@ export default Route.extend({
       let identit=store.createRecord('story',
         identite
       );
-      identit.save().then(()=>this.transitionTo('stories'));
+      identit.save().then(()=>this.transitionTo('story'));
 
     }
   }

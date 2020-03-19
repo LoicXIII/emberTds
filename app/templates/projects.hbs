@@ -39,6 +39,10 @@
 <!--          <LinkTo @route="projects.edit" class="circular ui grey basic icon button">-->
 <!--            <i class="edit outline icon"></i>-->
 <!--          </LinkTo>-->
+          <LinkTo @route="project" @model={{project.id}}  class="ui orange button">
+            <i class="info icon"></i>
+          </LinkTo>
+
           <button {{action "avantDelete" model project}} class="circular ui icon button inverted red">
             <i class="close icon"></i>
           </button>
