@@ -1,0 +1,66 @@
+<div class="center-div">
+  <div>
+    <i class="table icon"></i>
+    <h1>models/Project</h1>
+    Data Administration
+  </div>
+  <LinkTo @route="projects.new"  class="ui orange button">
+    <i class="plus icon"></i>
+   add models/Projects
+  </LinkTo>
+  <table class="ui single line striped table">
+    <thead>
+    <tr>
+      <th>Name</th>
+      <th> Descriptif</th>
+      <th>startDate </th>
+      <th> dueDate</th>
+      <th> </th>
+    </tr>
+    </thead>
+    <tbody>
+    {{#each model.pro  as |project| }}
+
+      <tr>
+        <td>
+          {{project.name}}
+        </td>
+        <td>
+          {{project.descriptif}}
+        </td>
+        <td>
+          {{project.startDate}}
+        </td>
+        <td>
+          {{project.dueDate}}
+        </td>
+
+        <td>
+<!--          <LinkTo @route="projects.edit" class="circular ui grey basic icon button">-->
+<!--            <i class="edit outline icon"></i>-->
+<!--          </LinkTo>-->
+          <button {{action "avantDelete" model project}} class="circular ui icon button inverted red">
+            <i class="close icon"></i>
+          </button>
+        </td>
+      </tr>
+
+
+    {{/each}}
+    </tbody>
+  </table>
+</div>
+
+{{#if model.proActif}}
+  <div class="center-div">
+    <i class="question circle icon"></i>
+    <p>Confirmer la suppression de {{model.proActif.name}}</p>
+    <button {{action "delete" model model.proActif}} class="ui positive button">
+      <i class="check icon"></i>Confirmer
+    </button>
+    <button {{action "annuler" model }} class="ui button">
+      <i class="close icon"></i>Annuler
+    </button>
+  </div>
+{{/if}}
+{{outlet}}

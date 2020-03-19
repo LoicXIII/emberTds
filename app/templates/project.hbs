@@ -1,0 +1,34 @@
+
+<div class="center-div">
+  <i class="folder open icon"></i>
+  <h2>Boards-EmberJS</h2>
+  <p>Gestion de projet Scrum avec EmberJS</p>
+</div>
+<div class="center-div">
+<h3>Stories</h3>
+<LinkTo @route="story.new" class="circular ui grey basic icon button">
+  <i class="plus icon"></i>
+</LinkTo>
+</div>
+
+<div class="center-div">
+  <table class="ui single line striped table">
+    <tbody>
+    {{#each model as |storie| }}
+
+      <tr>
+        <td>
+          {{storie.descriptif}}
+        </td>
+        <td>
+
+        </td>
+      </tr>
+
+
+    {{/each}}
+    </tbody>
+  </table>
+
+</div>
+{{outlet}}

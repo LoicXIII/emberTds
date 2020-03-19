@@ -1,0 +1,52 @@
+<div class="center-div">
+  <div>
+    <i class="table icon"></i>
+    <h1>models/developer</h1>
+    New object creation
+  </div>
+  <div class="ui input">
+    <h2>Name</h2><br>
+    <Input @value={{model.name}}  class="form-control"/>
+  </div>
+  <div class="ui input">
+    <h2>Descriptif</h2><br>
+    <Input @value={{model.descriptif}}  class="form-control"/>
+  </div>
+  <div class="ui input">
+    <h2>startDate</h2><br>
+    <Input type="date" @value={{model.startDate}}  class="form-control"/>
+  </div>
+  <div class="ui input">
+    <h2>dueDate</h2><br>
+    <Input type="date" @value={{model.dueDate}} class="form-control"/>
+  </div>
+
+
+  <div class="ui input">
+    <h2>Owner</h2><br>
+    {{#ui-dropdown class="selection" onChange=(action (mut model.projectObject.owner)) as |execute mapper|}}
+      <div class="default text">Select</div>
+      <i class="dropdown icon"></i>
+      <div class="menu">
+        {{#each model.developers as |developer|}}
+          <div data-value="{{map-value mapper developer}}" class="item">
+            {{developer.identity}}
+          </div>
+        {{/each}}
+      </div>
+    {{/ui-dropdown}}
+  </div>
+
+
+
+
+  <div>
+    <button  {{action "save" model}} class="ui positive button">
+      <i class="check icon"></i>Valider
+    </button>
+    <LinkTo @route="projects" class="ui button">
+      <i class="close icon"></i>Annuler
+    </LinkTo>
+  </div>
+</div>
+{{outlet}}
