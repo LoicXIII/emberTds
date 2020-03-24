@@ -1,1 +1,38 @@
+<div class="center-div">
+  <i class="file icon"></i>
+  <h2>Board EmberJs</h2>
+  <p>Ajout d'une story dans le projet</p>
+
+
+  <div class="ui input">
+    <h2>Code</h2><br>
+    <Input @value={{model.code}}  class="form-control"/>
+  </div>
+  <div class="ui input">
+    <h2>Descriptif</h2><br>
+    <Input @value={{model.descriptif}}  class="form-control"/>
+  </div>
+  <div class="ui input">
+    <h2>Developer</h2><br>
+    {{#ui-dropdown class="selection" onChange=(action (mut model.projectObject.owner)) as |execute mapper|}}
+      <div class="default text">Select</div>
+      <i class="dropdown icon"></i>
+      <div class="menu">
+        {{#each model.developers as |developer|}}
+          <div data-value="{{map-value mapper developer}}" class="item">
+            {{developer.identity}}
+          </div>
+        {{/each}}
+      </div>
+    {{/ui-dropdown}}
+  </div>
+</div>
+
+<div>
+  <button  {{action "save" model}} class="ui positive button">
+    <i class="check icon"></i>Valider
+  </button>
+
+</div>
+
 {{outlet}}

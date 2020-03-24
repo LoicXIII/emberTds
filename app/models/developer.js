@@ -3,5 +3,6 @@ const { Model } = DS;
 
 export default Model.extend({
   identity:DS.attr('string'),
-  story: DS.belongsTo('stories')
+  story: DS.belongsTo('story')
+
 });

@@ -6,22 +6,33 @@
 </div>
 <div class="center-div">
 <h3>Stories</h3>
-<LinkTo @route="story.new" @model={{project.id}} class="circular ui grey basic icon button">
-  <i class="plus icon"></i>
-</LinkTo>
+  <LinkTo @route="projects.new" @model={{project.id}} class="ui orange button">
+    <i class="plus icon"></i>
+    add models/Projects
+  </LinkTo>
 </div>
 
 <div class="center-div">
   <table class="ui single line striped table">
     <tbody>
-    {{#each model.pro.stories as |story| }}
+    {{#each this.model.stories as |story| }}
 
       <tr>
+
         <td>
+          <i class="file icon"></i>
+          {{story.code}}
           {{story.descriptif}}
         </td>
         <td>
-
+          <div class="ui left labeled button" tabindex="0">
+            <a class="ui basic right pointing label">
+              {{story.developer}}
+            </a>
+            <div class="ui button">
+              Modifier...
+            </div>
+          </div>
         </td>
       </tr>
 
