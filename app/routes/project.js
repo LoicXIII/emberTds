@@ -3,9 +3,11 @@ import RSVP from 'rsvp';
 
 export default Route.extend({
   model() {
+    let {project_id}=this.paramsFor('project');
     return RSVP.hash({
-      stories: this.store.findAll('story'),
-      project:this.store.findAll('project')
+      pro:project_id,
+      stories: this.store.query('story',{filter: {project:project_id}}),
+      project:this.store.findAll('project'),
     });
   }
 });
