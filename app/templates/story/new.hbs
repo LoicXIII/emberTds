@@ -14,11 +14,11 @@
   </div>
   <div class="ui input">
     <h2>Developer</h2><br>
-    {{#ui-dropdown class="selection" onChange=(action (mut model.projectObject.owner)) as |execute mapper|}}
-      <div class="default text">Select</div>
+    {{#ui-dropdown class="selection" onChange=(action (mut model.newproject.owner)) as |execute mapper|}}
+      <div class="default text">Owner</div>
       <i class="dropdown icon"></i>
       <div class="menu">
-        {{#each model.developers as |developer|}}
+        {{#each model.developer as |developer|}}
           <div data-value="{{map-value mapper developer}}" class="item">
             {{developer.identity}}
           </div>
