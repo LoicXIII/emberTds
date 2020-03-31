@@ -14,6 +14,8 @@ export default Route.extend({
   model() {
     let {project_id}=this.paramsFor('project');
     return RSVP.hash({
+      projectObject:EmberObject.create(),
+      developers:this.get('store').findAll('developer'),
       stories: this.store.query('story',{filter: {project:project_id}}),
       project:this.store.findAll('project'),
     });

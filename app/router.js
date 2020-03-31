@@ -18,7 +18,7 @@ Router.map(function() {
   this.route('project', {path: '/project/:project_id'}, function(){});
 
   this.route('story', function() {
-    this.route('new');
+    this.route('new',{path:'/new/:project_id'}, function(){});
   });
 });
 export default Router;
